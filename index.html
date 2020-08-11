@@ -1,0 +1,34 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.2.1/dist/jquery.min.js"></script>
+    <script src="./main.js"></script>
+</head>
+<body>
+    Contact Form
+    <form action="https://formspree.io/emailaddresshere@email.com"
+    method="POST">
+        <label>
+            Email
+            <input type="email" name="Email Address" class="email"/>
+        </label>
+        <label>
+            Subject
+            <input type="text" name="Subject" class="subject"/>
+        </label>
+        <label>
+            Message
+            <textarea name="message" class="message"></textarea>
+        </label>
+        <div class="status">
+
+        </div>
+        <button type="submit" class="submit">
+            Send
+        </button>
+    </form>
+</body>
+</html>
